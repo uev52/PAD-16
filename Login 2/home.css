@@ -1,0 +1,84 @@
+body { 
+color: green;
+
+background-image: url("gloves.jpg")
+
+}
+
+
+h1 
+{ 
+color: blue;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+#boksen
+{
+	position: absolute;
+	top: 300px;
+	right: 550px;
+	padding: 10px;
+	margin: 5px;	
+	border: 1px solid: #000000;
+	width: 420px;
+	
+}
+#mma{
+	position: absolute;
+	top: 300px;
+	right: 550px;
+	padding: 10px;
+	margin: 5px;	
+	border: 1px solid: #000000;
+	width: 420px;
+	
+	
+	
+	
+}
+#judo
+{
+	position: absolute;
+	top: 300px;
+	right: 550px;
+	padding: 10px;
+	margin: 5px;	
+	border: 1px solid: #000000;
+	width: 420px;
+	
+	
+}
